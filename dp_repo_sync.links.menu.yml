@@ -1,0 +1,17 @@
+dp_repo_sync.repo_account_config:
+  title: 'Repository importer accounts'
+  description: 'Manage repository accounts'
+  parent: system.admin_config_system
+  route_name: entity.repo_account.collection
+
+dp_repo_sync.repo_import_config:
+  title: 'Repository imports'
+  description: 'Manage repository imports'
+  parent: system.admin_structure
+  route_name: entity.repo_import.collection
+
+dp_repo_sync.admin_settings:
+  title: 'Repository sync settings'
+  description: 'Manage global repository sync settings'
+  parent: system.admin_config_system
+  route_name: dp_repo_sync.admin_settings
